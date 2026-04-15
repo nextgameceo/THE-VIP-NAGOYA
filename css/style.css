@@ -342,3 +342,25 @@ echo "style.css OK"
   background: radial-gradient(ellipse at 45% 40%, rgba(232,97,140,0.22) 0%, transparent 55%);
 }
 .gi-4 .gallery-label .gallery-en { font-size: 0.75rem; letter-spacing: 0.3em; }
+
+/* HERO visibility fix */
+.hero-bg {
+  background:
+    radial-gradient(ellipse 80% 60% at 50% 40%, rgba(232,97,140,0.18) 0%, transparent 70%),
+    radial-gradient(ellipse 60% 40% at 80% 70%, rgba(201,169,110,0.1) 0%, transparent 60%),
+    linear-gradient(180deg, #050508 0%, #0a0a14 50%, #050508 100%) !important;
+}
+.hero-label {
+  color: #f09aba !important;
+  opacity: 1 !important;
+  text-shadow: 0 0 20px rgba(232,97,140,0.7);
+}
+.hero-title {
+  color: #ffffff !important;
+  text-shadow: 0 2px 20px rgba(0,0,0,0.8), 0 0 40px rgba(232,97,140,0.2);
+}
+.hero-sub {
+  color: #d8d4e8 !important;
+  opacity: 1 !important;
+  text-shadow: 0 1px 8px rgba(0,0,0,0.9);
+}
