@@ -1,0 +1,191 @@
+cat > /workspaces/THE-VIP-NAGOYA/index.html << 'HTMLEOF'
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>THE V.I.P NAGOYA | 名古屋・栄 会員制BAR</title>
+  <meta name="description" content="名古屋・栄の会員制BAR「THE V.I.P NAGOYA」。著名人、経営者、美女が集う特別な空間。栄駅徒歩圏内、プリンセス遠山ビル505。" />
+  <meta property="og:title" content="THE V.I.P NAGOYA | 名古屋・栄 会員制BAR" />
+  <meta property="og:description" content="名古屋・栄の会員制BAR「THE V.I.P NAGOYA」。著名人、経営者、美女が集う特別な空間。" />
+  <meta property="og:type" content="website" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Noto+Serif+JP:wght@200;300;400;500&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <nav id="navbar" class="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo"><img src="images/logo.png" alt="THE V.I.P NAGOYA ロゴ" /></a>
+      <button class="nav-toggle" id="navToggle" aria-label="メニュー"><span></span><span></span><span></span></button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#concept">CONCEPT</a></li>
+        <li><a href="#system">SYSTEM</a></li>
+        <li><a href="#access">ACCESS</a></li>
+        <li><a href="#contact" class="nav-cta">RESERVE</a></li>
+      </ul>
+    </div>
+  </nav>
+  <section id="hero" class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-particles" id="particles"></div>
+    <div class="hero-content">
+      <p class="hero-label">MEMBERS ONLY</p>
+      <img src="images/logo.png" alt="THE V.I.P NAGOYA" class="hero-logo" />
+      <h1 class="hero-title">
+        <span class="hero-title-line">名古屋・栄</span>
+        <span class="hero-title-line">会員制 BAR</span>
+      </h1>
+      <p class="hero-sub">著名人・経営者・美女が集う<br />特別な夜の舞台</p>
+      <div class="hero-btns">
+        <a href="#contact" class="btn btn-primary">ご予約・お問い合わせ</a>
+        <a href="#about" class="btn btn-outline">詳細を見る</a>
+      </div>
+      <div class="hero-scroll" id="heroScroll"><span>SCROLL</span><div class="hero-scroll-line"></div></div>
+    </div>
+  </section>
+  <section id="about" class="about section">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">ABOUT US</p>
+        <h2 class="section-title">THE V.I.P NAGOYA<br /><span>について</span></h2>
+        <div class="divider"></div>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p class="about-lead">名古屋・栄の中心に佇む<br />「会員制 BAR」</p>
+          <p class="about-body">THE V.I.P NAGOYA は、名古屋・栄の一等地に位置する完全会員制のプライベートバーです。<br /><br />著名人、経営者、そして選ばれた美女たちが集う上質な空間で、日常から切り離された特別なひとときをご提供いたします。<br /><br />洗練されたインテリア、厳選されたドリンク、そして心地よいホスピタリティ。あなたのための「非日常」がここにあります。</p>
+          <ul class="about-features">
+            <li><i class="fas fa-crown"></i><span>完全会員制</span></li>
+            <li><i class="fas fa-glass-cheers"></i><span>厳選プレミアムボトル</span></li>
+            <li><i class="fas fa-shield-alt"></i><span>プライベート空間</span></li>
+            <li><i class="fas fa-star"></i><span>VIPシート完備</span></li>
+          </ul>
+        </div>
+        <div class="about-visual">
+          <div class="about-card"><div class="about-card-inner"><img src="images/logo.png" alt="THE V.I.P NAGOYA" /><div class="about-card-glow"></div></div></div>
+          <div class="about-stat-grid">
+            <div class="about-stat"><span class="stat-num">VIP</span><span class="stat-label">Members Only</span></div>
+            <div class="about-stat"><span class="stat-num">栄</span><span class="stat-label">名古屋の中心</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="concept" class="concept section">
+    <div class="concept-bg-text">V.I.P</div>
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">CONCEPT</p>
+        <h2 class="section-title">コンセプト</h2>
+        <div class="divider"></div>
+      </div>
+      <div class="concept-cards">
+        <div class="concept-card" data-delay="0"><div class="concept-card-icon"><i class="fas fa-crown"></i></div><h3>EXCLUSIVE</h3><p>選ばれた方々だけが入場できる、真のプライベート空間。非公開のゲストリストで守られた特別な場所です。</p></div>
+        <div class="concept-card" data-delay="150"><div class="concept-card-icon"><i class="fas fa-cocktail"></i></div><h3>PREMIUM</h3><p>世界各地から厳選されたプレミアムボトルと、熟練バーテンダーによる至高のカクテルで、忘れられない夜を演出します。</p></div>
+        <div class="concept-card" data-delay="300"><div class="concept-card-icon"><i class="fas fa-users"></i></div><h3>NETWORK</h3><p>著名人、成功した経営者、各界のリーダーが集う場所。新しい出会いと価値あるネットワークを広げる機会を提供します。</p></div>
+      </div>
+    </div>
+  </section>
+  <section id="system" class="system section">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">SYSTEM</p>
+        <h2 class="section-title">ご利用案内</h2>
+        <div class="divider"></div>
+      </div>
+      <div class="system-grid">
+        <div class="system-card"><div class="system-icon"><i class="fas fa-door-open"></i></div><h3>入場について</h3><p>完全会員制のため、初回ご来店の際は紹介または事前のお問い合わせが必要です。まずはDMまたは下記フォームよりご連絡ください。</p></div>
+        <div class="system-card highlight"><div class="system-icon"><i class="fas fa-wine-bottle"></i></div><h3>VIPシート</h3><p>¥10,000以上のボトルご購入でVIPシートをご利用いただけます。1テーブル2時間制、最大6名様でのご利用となります。</p><div class="system-badge">POPULAR</div></div>
+        <div class="system-card"><div class="system-icon"><i class="fas fa-calendar-check"></i></div><h3>ご予約</h3><p>InstagramのDMまたは下記お問い合わせフォームよりご予約を承っております。当日のご予約もご相談ください。</p></div>
+        <div class="system-card"><div class="system-icon"><i class="fas fa-clock"></i></div><h3>営業時間</h3><p>詳しい営業時間・定休日はInstagramまたはお問い合わせにてご確認ください。</p></div>
+      </div>
+      <div class="system-note"><i class="fas fa-info-circle"></i><p>最新情報は公式Instagramにてご確認ください。内容は変更になる場合がございます。</p></div>
+    </div>
+  </section>
+  <section id="gallery" class="gallery section">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">GALLERY</p>
+        <h2 class="section-title">ギャラリー</h2>
+        <div class="divider"></div>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item gi-1"><div class="gallery-item-inner"><div class="gallery-overlay"><i class="fas fa-crown"></i><span>VIP LOUNGE</span></div></div></div>
+        <div class="gallery-item gi-2"><div class="gallery-item-inner"><div class="gallery-overlay"><i class="fas fa-cocktail"></i><span>PREMIUM BAR</span></div></div></div>
+        <div class="gallery-item gi-3"><div class="gallery-item-inner"><div class="gallery-overlay"><i class="fas fa-glass-cheers"></i><span>EXCLUSIVE NIGHT</span></div></div></div>
+        <div class="gallery-item gi-4"><div class="gallery-item-inner"><div class="gallery-overlay"><i class="fas fa-star"></i><span>VIP SEATS</span></div></div></div>
+      </div>
+      <div class="gallery-cta"><a href="https://www.instagram.com/the_vip_nagoya/" target="_blank" rel="noopener" class="btn btn-instagram"><i class="fab fa-instagram"></i> Instagram で詳しく見る</a></div>
+    </div>
+  </section>
+  <section id="access" class="access section">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">ACCESS</p>
+        <h2 class="section-title">アクセス</h2>
+        <div class="divider"></div>
+      </div>
+      <div class="access-grid">
+        <div class="access-info">
+          <div class="access-detail">
+            <div class="access-item"><i class="fas fa-map-marker-alt"></i><div><h4>住所</h4><p>〒460-0008<br />愛知県名古屋市中区栄 12-14<br />プリンセス遠山ビル 505</p></div></div>
+            <div class="access-item"><i class="fas fa-subway"></i><div><h4>最寄り駅</h4><p>地下鉄「栄」駅より徒歩圏内</p></div></div>
+            <div class="access-item"><i class="fas fa-phone-alt"></i><div><h4>お問い合わせ</h4><p>Instagram DM または<br />下記フォームよりご連絡ください</p></div></div>
+            <div class="access-item"><i class="fab fa-instagram"></i><div><h4>Instagram</h4><a href="https://www.instagram.com/the_vip_nagoya/" target="_blank" rel="noopener">@the_vip_nagoya</a></div></div>
+          </div>
+          <a href="https://maps.app.goo.gl/be6sGEdi4unGvDW27" target="_blank" rel="noopener" class="btn btn-map"><i class="fas fa-map-marked-alt"></i> Google Maps で開く</a>
+        </div>
+        <div class="access-map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d812.3854345!2d136.9068!3d35.1687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600371006eba6edd%3A0x59fc8dec5dc4b777!2sTHE%20VIP%20NAGOYA!5e0!3m2!1sja!2sjp!4v1700000000000" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="THE VIP NAGOYA 地図"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="contact section">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">RESERVE</p>
+        <h2 class="section-title">ご予約・<br class="sp-only" />お問い合わせ</h2>
+        <div class="divider"></div>
+        <p class="section-desc">ご来店・ご入会のお問い合わせは<br />こちらのフォームまたはInstagram DMよりお気軽にどうぞ。</p>
+      </div>
+      <div class="contact-wrapper">
+        <form id="contactForm" class="contact-form" novalidate>
+          <div class="form-row">
+            <div class="form-group"><label for="name">お名前 <span class="required">*</span></label><input type="text" id="name" name="name" placeholder="山田 太郎" required /><span class="form-error" id="nameError"></span></div>
+            <div class="form-group"><label for="tel">電話番号</label><input type="tel" id="tel" name="tel" placeholder="090-0000-0000" /></div>
+          </div>
+          <div class="form-group"><label for="email">メールアドレス <span class="required">*</span></label><input type="email" id="email" name="email" placeholder="example@email.com" required /><span class="form-error" id="emailError"></span></div>
+          <div class="form-group"><label for="type">お問い合わせ種別</label><select id="type" name="type"><option value="">選択してください</option><option value="reserve">ご予約</option><option value="membership">会員登録について</option><option value="vip">VIPシートについて</option><option value="other">その他</option></select></div>
+          <div class="form-group"><label for="date">ご希望日時</label><input type="datetime-local" id="date" name="date" /></div>
+          <div class="form-group"><label for="message">メッセージ <span class="required">*</span></label><textarea id="message" name="message" rows="5" placeholder="ご予約人数・ご要望などをお書きください" required></textarea><span class="form-error" id="messageError"></span></div>
+          <button type="submit" class="btn btn-primary btn-full" id="submitBtn"><span class="btn-text">送信する</span><i class="fas fa-paper-plane"></i></button>
+        </form>
+        <div class="contact-sns">
+          <p class="sns-title">SNSからもご連絡いただけます</p>
+          <a href="https://www.instagram.com/the_vip_nagoya/" target="_blank" rel="noopener" class="sns-btn sns-instagram"><i class="fab fa-instagram"></i><span>Instagram DM</span></a>
+        </div>
+        <div id="formSuccess" class="form-success" style="display:none;"><i class="fas fa-check-circle"></i><h3>送信が完了しました</h3><p>お問い合わせありがとうございます。担当者よりご連絡いたします。</p></div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="container footer-inner">
+        <div class="footer-brand"><img src="images/logo.png" alt="THE V.I.P NAGOYA" class="footer-logo" /><p class="footer-tagline">名古屋・栄 会員制 BAR</p></div>
+        <div class="footer-links">
+          <nav class="footer-nav"><a href="#about">ABOUT</a><a href="#concept">CONCEPT</a><a href="#system">SYSTEM</a><a href="#access">ACCESS</a><a href="#contact">RESERVE</a></nav>
+          <div class="footer-sns"><a href="https://www.instagram.com/the_vip_nagoya/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a></div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom"><div class="container"><p class="footer-address">〒460-0008 愛知県名古屋市中区栄 12-14 プリンセス遠山ビル 505</p><p class="footer-copy">&copy; 2025 THE V.I.P NAGOYA. All Rights Reserved.</p></div></div>
+  </footer>
+  <button id="backToTop" class="back-to-top" aria-label="トップへ戻る"><i class="fas fa-chevron-up"></i></button>
+  <script src="js/main.js"></script>
+</body>
+</html>
+HTMLEOF
+echo "index.html OK"
