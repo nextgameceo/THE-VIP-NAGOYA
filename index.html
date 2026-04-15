@@ -60,7 +60,7 @@ cat > /workspaces/THE-VIP-NAGOYA/index.html << 'HTMLEOF'
             <li><i class="fas fa-crown"></i><span>完全会員制</span></li>
             <li><i class="fas fa-glass-cheers"></i><span>厳選プレミアムボトル</span></li>
             <li><i class="fas fa-shield-alt"></i><span>プライベート空間</span></li>
-            <li><i class="fas fa-star"></i><span>VIPシート完備</span></li>
+            <li><i class="fas fa-star"></i><span>プライベートラウンジ</span></li>
           </ul>
         </div>
         <div class="about-visual">
@@ -83,7 +83,7 @@ cat > /workspaces/THE-VIP-NAGOYA/index.html << 'HTMLEOF'
       </div>
       <div class="concept-cards">
         <div class="concept-card" data-delay="0"><div class="concept-card-icon"><i class="fas fa-crown"></i></div><h3>EXCLUSIVE</h3><p>選ばれた方々だけが入場できる、真のプライベート空間。非公開のゲストリストで守られた特別な場所です。</p></div>
-        <div class="concept-card" data-delay="150"><div class="concept-card-icon"><i class="fas fa-cocktail"></i></div><h3>PREMIUM</h3><p>世界各地から厳選されたプレミアムボトルと、熟練バーテンダーによる至高のカクテルで、忘れられない夜を演出します。</p></div>
+        <div class="concept-card" data-delay="150"><div class="concept-card-icon"><i class="fas fa-cocktail"></i></div><h3>PREMIUM</h3><p>世界各地から厳選されたプレミアムボトルで、忘れられない夜を演出します。</p></div>
         <div class="concept-card" data-delay="300"><div class="concept-card-icon"><i class="fas fa-users"></i></div><h3>NETWORK</h3><p>著名人、成功した経営者、各界のリーダーが集う場所。新しい出会いと価値あるネットワークを広げる機会を提供します。</p></div>
       </div>
     </div>
@@ -97,7 +97,7 @@ cat > /workspaces/THE-VIP-NAGOYA/index.html << 'HTMLEOF'
       </div>
       <div class="system-grid">
         <div class="system-card"><div class="system-icon"><i class="fas fa-door-open"></i></div><h3>入場について</h3><p>完全会員制のため、初回ご来店の際は紹介または事前のお問い合わせが必要です。まずはDMまたは下記フォームよりご連絡ください。</p></div>
-        <div class="system-card highlight"><div class="system-icon"><i class="fas fa-wine-bottle"></i></div><h3>VIPシート</h3><p>¥10,000以上のボトルご購入でVIPシートをご利用いただけます。1テーブル2時間制、最大6名様でのご利用となります。</p><div class="system-badge">POPULAR</div></div>
+        <div class="system-card highlight"><div class="system-icon"><i class="fas fa-wine-bottle"></i></div><h3>プレミアムボトル</h3><p>焼酎・シャンパンをはじめ、厳選されたプレミアムボトルをご用意しております。特別な夜にふさわしい一本をお選びください。</p><div class="system-badge">POPULAR</div></div>
         <div class="system-card"><div class="system-icon"><i class="fas fa-calendar-check"></i></div><h3>ご予約</h3><p>InstagramのDMまたは下記お問い合わせフォームよりご予約を承っております。当日のご予約もご相談ください。</p></div>
         <div class="system-card"><div class="system-icon"><i class="fas fa-clock"></i></div><h3>営業時間</h3><p>詳しい営業時間・定休日はInstagramまたはお問い合わせにてご確認ください。</p></div>
       </div>
@@ -199,7 +199,7 @@ cat > /workspaces/THE-VIP-NAGOYA/index.html << 'HTMLEOF'
             <div class="form-group"><label for="tel">電話番号</label><input type="tel" id="tel" name="tel" placeholder="090-0000-0000" /></div>
           </div>
           <div class="form-group"><label for="email">メールアドレス <span class="required">*</span></label><input type="email" id="email" name="email" placeholder="example@email.com" required /><span class="form-error" id="emailError"></span></div>
-          <div class="form-group"><label for="type">お問い合わせ種別</label><select id="type" name="type"><option value="">選択してください</option><option value="reserve">ご予約</option><option value="membership">会員登録について</option><option value="vip">VIPシートについて</option><option value="other">その他</option></select></div>
+          <div class="form-group"><label for="type">お問い合わせ種別</label><select id="type" name="type"><option value="">選択してください</option><option value="reserve">ご予約</option><option value="membership">会員登録について</option><option value="bottle">ボトルについて</option><option value="other">その他</option></select></div>
           <div class="form-group"><label for="date">ご希望日時</label><input type="datetime-local" id="date" name="date" /></div>
           <div class="form-group"><label for="message">メッセージ <span class="required">*</span></label><textarea id="message" name="message" rows="5" placeholder="ご予約人数・ご要望などをお書きください" required></textarea><span class="form-error" id="messageError"></span></div>
           <button type="submit" class="btn btn-primary btn-full" id="submitBtn"><span class="btn-text">送信する</span><i class="fas fa-paper-plane"></i></button>
