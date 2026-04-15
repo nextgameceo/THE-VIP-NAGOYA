@@ -266,3 +266,79 @@ textarea { resize: vertical; min-height: 120px; }
 }
 CSSEOF
 echo "style.css OK"
+/* Gallery labels */
+.gallery-label-main {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 2;
+  pointer-events: none;
+}
+.gallery-label {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 2;
+  pointer-events: none;
+}
+.gallery-en {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(1.2rem, 3vw, 2rem);
+  font-weight: 300;
+  letter-spacing: 0.3em;
+  color: rgba(240,154,186,0.85);
+  text-shadow: 0 0 30px rgba(232,97,140,0.5);
+  display: block;
+}
+.gallery-ja {
+  font-family: 'Noto Serif JP', serif;
+  font-size: 0.75rem;
+  letter-spacing: 0.25em;
+  color: rgba(201,169,110,0.8);
+  margin-top: 8px;
+  display: block;
+}
+.gi-1 .gallery-item-inner {
+  background: linear-gradient(135deg, #120a08 0%, #2a1008 50%, #1a0a05 100%);
+}
+.gi-1 .gallery-item-inner::before {
+  content: '';
+  position: absolute; inset: 0;
+  background:
+    radial-gradient(ellipse at 30% 40%, rgba(201,169,110,0.3) 0%, transparent 55%),
+    radial-gradient(ellipse at 70% 65%, rgba(232,97,140,0.15) 0%, transparent 50%);
+}
+.gi-2 .gallery-item-inner {
+  background: linear-gradient(135deg, #080a18 0%, #0f1230 60%, #080a18 100%);
+}
+.gi-2 .gallery-item-inner::before {
+  content: '';
+  position: absolute; inset: 0;
+  background: radial-gradient(ellipse at 50% 35%, rgba(201,169,110,0.35) 0%, transparent 60%);
+}
+.gi-2 .gallery-label .gallery-en {
+  font-size: 0.8rem;
+  letter-spacing: 0.35em;
+  color: rgba(201,169,110,0.9);
+  text-shadow: 0 0 20px rgba(201,169,110,0.5);
+}
+.gi-3 .gallery-item-inner {
+  background: linear-gradient(135deg, #180510 0%, #280820 60%, #120510 100%);
+}
+.gi-3 .gallery-item-inner::before {
+  content: '';
+  position: absolute; inset: 0;
+  background: radial-gradient(ellipse at 55% 40%, rgba(232,97,140,0.28) 0%, transparent 55%);
+}
+.gi-3 .gallery-label .gallery-en { font-size: 0.75rem; letter-spacing: 0.3em; }
+.gi-4 .gallery-item-inner {
+  background: linear-gradient(135deg, #0d0818 0%, #180a28 60%, #0d0815 100%);
+}
+.gi-4 .gallery-item-inner::before {
+  content: '';
+  position: absolute; inset: 0;
+  background: radial-gradient(ellipse at 45% 40%, rgba(232,97,140,0.22) 0%, transparent 55%);
+}
+.gi-4 .gallery-label .gallery-en { font-size: 0.75rem; letter-spacing: 0.3em; }
